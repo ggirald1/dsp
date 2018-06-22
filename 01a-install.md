@@ -51,7 +51,7 @@ However, this is completely optional as Anaconda is an all-in-one package manage
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Python 3 because the official end-of-life for python 2 is 2020 and I want to be experienced in the newest python.
 
 ### Q2. Which Python Version Installed   
 
@@ -59,7 +59,7 @@ In the Terminal:
 
 `python3 --version`
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> 3.6.5
 
  
 
