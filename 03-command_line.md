@@ -20,14 +20,23 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`pwd`--**show current working directory**  
+`mkdir`--**creating a directory**  
+`rmdir`--**deleting a directory**  
+`touch file_nam.extension`--**creating a file using `touch` command**  
+`rm my_file.extension`--**deleting a file**  
+`mv my_old_file.extension my_new_file.extension`--**renaming a file**  
+`ls -a `--**listing hidden files**  
+`cp my_file.extension new_directory/my_file.extension`--**copying a file from one directory to another**  
+`cd path/to/go/to`--**change directory**
+`locate \*my\* \*file\*`--**finds a specific file in the OS with the words 'my' and 'file'**  
 
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
+`ls` 
 `ls -a`  
 `ls -l`  
 `ls -lh`  
@@ -35,7 +44,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls`--lists all contents of working directory  
+`ls -a`--lists all contents of working directory(including hidden files)  
+`ls -l`--lists all contents of working directory one line at a time  
+`ls -lh`--lists all contents of working directory with human readable format  
+`ls-lah`--lists all contents of working directory(including hidden files) in human readable format  
+`ls -t`--lists all contents of working directory sorted by modification time, newest first  
+`ls -Glp`--lists all contents of working directory one line at a time (without owner) in '/' indicator appended to directories  
+
 
 ---
 
@@ -43,7 +59,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls -R`--recursively list all contents in subdirectories
+`ls -LS`--sorts file by file size
+`ls -d`--lists only directories
+`ls -u`--lists files by access time
+`ls -r`--lists files in reverse order
 
 ---
 
@@ -51,7 +71,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > builds and executes command lines from standard input (helps to execute repeated commands)  
+ex:  
+`xargs find -name "\*.txt"`--this will find all files (including subdirectories) with extension '.txt'
  
 
