@@ -28,7 +28,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 `mv my_old_file.extension my_new_file.extension`--**renaming a file**  
 `ls -a `--**listing hidden files**  
 `cp my_file.extension new_directory/my_file.extension`--**copying a file from one directory to another**  
-`cd path/to/go/to`--**change directory**
+`cd path/to/go/to`--**change directory**  
 `locate \*my\* \*file\*`--**finds a specific file in the OS with the words 'my' and 'file'**  
 
 ---
