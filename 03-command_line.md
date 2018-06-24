@@ -29,7 +29,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 `ls -a `--**listing hidden files**  
 `cp my_file.extension new_directory/my_file.extension`--**copying a file from one directory to another**  
 `cd path/to/go/to`--**change directory**  
-`locate \*my\* \*file\*`--**finds a specific file in the OS with the words 'my' and 'file'**  
+`locate *my* *file\*`--**finds a specific file in the OS with the words 'my' and 'file'**  
 
 ---
 
