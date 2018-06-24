@@ -73,6 +73,6 @@ What does `xargs` do? Give an example of how to use it.
 
 > > builds and executes command lines from standard input (helps to execute repeated commands)  
 ex:  
-`xargs find -name "\*.txt"`--this will find all files (including subdirectories) with extension '.txt'
+`xargs find -name "*.txt"`--this will find all files (including subdirectories) with extension '.txt'
  
 
