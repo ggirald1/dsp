@@ -22,7 +22,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 `pwd`--**show current working directory**  
 `mkdir`--**creating a directory**  
-`rmdir`--**deleting a directory**  
+`rm -rf`--**deleting a directory**  
 `touch file_nam.extension`--**creating a file using `touch` command**  
 `rm my_file.extension`--**deleting a file**  
 `mv my_old_file.extension my_new_file.extension`--**renaming a file**  
