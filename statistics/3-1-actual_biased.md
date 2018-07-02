@@ -28,7 +28,7 @@ thinkplot.Show(xlabel='number of children', ylabel='PMF')
  ```
  ![actual vs biased number of children](actual_vs_biased_number_of_children.png)
  
- Lastly, I plotted the means for the actual vs biased distributions
+ Lastly, I calculated the means for the actual and biased distributions
  ```python
  actual_pmf.mean()
  biased_pmf.mean()
