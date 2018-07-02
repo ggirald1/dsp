@@ -11,3 +11,15 @@ thinkplot.Pmf(pmf, linewidth=0.1)
 thinkplot.Config(xlabel='Random.Random ', ylabel='PMF')
 ```
 ![random.random pmf](random_random_pmf.png)
+
+But it's very difficult to visually distinguish if it is a uniform distribution
+
+Next, I plotted the CDF:
+
+```python
+cdf = thinkstats2.Cdf(t)
+thinkplot.Cdf(cdf)
+thinkplot.Config(xlabel='Random.Random', ylabel='CDF')
+```
+![random.random cdf](random_random_cdf.png)
+since the cdf is approximately a straight line, the distribution is uniform.
