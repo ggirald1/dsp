@@ -23,7 +23,7 @@ biased_pmf = BiasPMF(actual_dist, 'biased')
  Next, I plotted the actual and biased PMFs
  ```python
 thinkplot.PrePlot(2)
-thinkplot.Pmfs([pmf, biased_pmf])
-thinkplot.Show(xlabel='class size', ylabel='PMF')
+thinkplot.Pmfs([actual_pmf, biased_pmf])
+thinkplot.Show(xlabel='family size', ylabel='PMF')
  ```
  
