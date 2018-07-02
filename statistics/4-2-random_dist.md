@@ -10,3 +10,4 @@ pmf = thinkstats2.PMF(randomNumbers)
 thinkplot.Pmf(pmf, linewidth=0.1)
 thinkplot.Config(xlabel='Random.Random ', ylabel='PMF')
 ```
+![random.random pmf](random_random_pmf.png)
