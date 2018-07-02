@@ -26,4 +26,4 @@ thinkplot.PrePlot(2)
 thinkplot.Pmfs([actual_pmf, biased_pmf])
 thinkplot.Show(xlabel='family size', ylabel='PMF')
  ```
- 
+ ![actual vs biased number of children](actual_vs_biased_number_of_children.png)
