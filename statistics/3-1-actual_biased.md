@@ -24,6 +24,13 @@ biased_pmf = BiasPMF(actual_dist, 'biased')
  ```python
 thinkplot.PrePlot(2)
 thinkplot.Pmfs([actual_pmf, biased_pmf])
-thinkplot.Show(xlabel='family size', ylabel='PMF')
+thinkplot.Show(xlabel='number of children', ylabel='PMF')
  ```
  ![actual vs biased number of children](actual_vs_biased_number_of_children.png)
+ 
+ Lastly, I plotted the means for the actual vs biased distributions
+ ```python
+ actual_pmf.mean()
+ biased_pmf.mean()
+ ```
+which were 1.0242051550438309 and 2.4036791006642821, respectively.
