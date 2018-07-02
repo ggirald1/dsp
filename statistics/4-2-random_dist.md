@@ -21,5 +21,5 @@ cdf = thinkstats2.Cdf(t)
 thinkplot.Cdf(cdf)
 thinkplot.Config(xlabel='Random.Random', ylabel='CDF')
 ```
-![random.random cdf](random_random_cdf.png)
+![random.random cdf](random_random_cdf.png)  
 since the cdf is approximately a straight line, the distribution is uniform.
